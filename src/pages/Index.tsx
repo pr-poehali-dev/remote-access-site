@@ -7,12 +7,9 @@ export default function Index() {
 
         <div className="mb-10 w-16 h-[1px] bg-[#c8c4bc]" />
 
-        <h1 className="font-montserrat text-[#1a1916] text-3xl sm:text-4xl font-light leading-tight mb-3 tracking-tight">
+        <h1 className="font-montserrat text-[#1a1916] text-3xl sm:text-4xl font-light leading-tight mb-12 tracking-tight">
           Скачать приложение для удалённого доступа
         </h1>
-        <h2 className="font-montserrat text-[#1a1916] text-4xl sm:text-5xl font-bold leading-tight mb-12 tracking-tight">
-          RustDesk
-        </h2>
 
         <a
           href="https://github.com/rustdesk/rustdesk/releases/latest"
