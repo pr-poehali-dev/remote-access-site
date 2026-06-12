@@ -1,17 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Icon from "@/components/ui/icon";
 
-const Index = () => {
+export default function Index() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
-      <span className="absolute bottom-8 left-1/2 -translate-x-1/2 inline-block bg-[#FF6637] text-white text-sm px-4 py-2 rounded-full whitespace-nowrap">
-        Подождите 5 минут, Юра создает первую версию проекта с нуля
-      </span>
-    </div>
-  );
-};
+    <main className="min-h-screen bg-[#f8f7f4] flex flex-col items-center justify-center px-6">
+      <div className="flex flex-col items-center text-center max-w-md animate-fade-in">
 
-export default Index;
+        <div className="mb-10 w-16 h-[1px] bg-[#c8c4bc]" />
+
+        <p className="font-golos text-[#9c9890] text-sm tracking-[0.2em] uppercase mb-6 font-medium">
+          Удалённый доступ
+        </p>
+
+        <h1 className="font-montserrat text-[#1a1916] text-4xl sm:text-5xl font-light leading-tight mb-3 tracking-tight">
+          Скачать приложение
+        </h1>
+        <h2 className="font-montserrat text-[#1a1916] text-4xl sm:text-5xl font-bold leading-tight mb-12 tracking-tight">
+          RustDesk
+        </h2>
+
+        <a
+          href="https://github.com/rustdesk/rustdesk/releases/latest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-3 bg-[#1a1916] text-[#f8f7f4] px-10 py-4 font-golos text-base font-medium tracking-wide transition-all duration-300 hover:bg-[#2d2b27] hover:gap-5 active:scale-[0.98]"
+        >
+          <Icon name="Download" size={18} />
+          Rustdesk
+        </a>
+
+        <div className="mt-16 w-16 h-[1px] bg-[#c8c4bc]" />
+
+        <p className="font-golos text-[#bfbbb3] text-xs mt-6 tracking-wide">
+          Бесплатно · Открытый исходный код
+        </p>
+      </div>
+    </main>
+  );
+}
