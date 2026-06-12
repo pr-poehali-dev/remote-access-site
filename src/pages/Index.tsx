@@ -7,12 +7,8 @@ export default function Index() {
 
         <div className="mb-10 w-16 h-[1px] bg-[#c8c4bc]" />
 
-        <p className="font-golos text-[#9c9890] text-sm tracking-[0.2em] uppercase mb-6 font-medium">
-          Удалённый доступ
-        </p>
-
-        <h1 className="font-montserrat text-[#1a1916] text-4xl sm:text-5xl font-light leading-tight mb-3 tracking-tight">
-          Скачать приложение
+        <h1 className="font-montserrat text-[#1a1916] text-3xl sm:text-4xl font-light leading-tight mb-3 tracking-tight">
+          Скачать приложение для удалённого доступа
         </h1>
         <h2 className="font-montserrat text-[#1a1916] text-4xl sm:text-5xl font-bold leading-tight mb-12 tracking-tight">
           RustDesk
@@ -29,10 +25,6 @@ export default function Index() {
         </a>
 
         <div className="mt-16 w-16 h-[1px] bg-[#c8c4bc]" />
-
-        <p className="font-golos text-[#bfbbb3] text-xs mt-6 tracking-wide">
-          Бесплатно · Открытый исходный код
-        </p>
       </div>
     </main>
   );
